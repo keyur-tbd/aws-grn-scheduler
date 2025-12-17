@@ -1,0 +1,30 @@
+
+# Credentials
+credentials.json
+token.json
+
+# Logs
+aws_scheduler.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Virtual environments
+venv*/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
