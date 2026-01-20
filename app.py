@@ -54,7 +54,7 @@ CONFIG = {
         'max_results': 1000
     },
     'sheet': {
-        'llama_api_key': 'llx-DkwQuIwq5RVZk247W0r5WCdywejPI5CybuTDJgAUUcZKNq0A',
+        'llama_api_key': 'llx-yRJqYZDkbbRGmMsNCiAbk3NE8OAzWFP8gAv2iKX79BBr70Wj',
         'llama_agent': 'More retail Agent',
         'drive_folder_id': '1LkJFeHSKc1_o3TY5-uo_gSUdcUofg1pt',
         'spreadsheet_id': '16y9DAK2tVHgnZNnPeRoSSPPE2NcspW_qqMF8ZR8OOC0',
