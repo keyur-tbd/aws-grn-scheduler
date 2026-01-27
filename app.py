@@ -59,7 +59,7 @@ CONFIG = {
         'drive_folder_id': '1LkJFeHSKc1_o3TY5-uo_gSUdcUofg1pt',
         'spreadsheet_id': '16y9DAK2tVHgnZNnPeRoSSPPE2NcspW_qqMF8ZR8OOC0',
         'sheet_range': 'mraws',
-        'days_back': 13,
+        'days_back': 27,
         'max_files': 1000
     },
     'workflow_log': {
