@@ -47,7 +47,7 @@ logging.basicConfig(
 CONFIG = {
     'mail': {
         'gdrive_folder_id': '1LkJFeHSKc1_o3TY5-uo_gSUdcUofg1pt',  # Directly to this folder
-        'sender': 'aws-reports@moreretail.in',
+        'sender': 'aws-report@moreretail.in',
         'search_term': 'GRN',
         'attachment_filter': '',
         'days_back': 27,
