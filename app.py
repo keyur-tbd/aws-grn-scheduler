@@ -50,7 +50,7 @@ CONFIG = {
         'sender': 'aws-report@moreretail.in',
         'search_term': 'GRN',
         'attachment_filter': '',
-        'days_back': 50,
+        'days_back': 10,
         'max_results': 1000
     },
     'sheet': {
