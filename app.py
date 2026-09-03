@@ -22,6 +22,7 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from googleapiclient.http import MediaIoBaseUpload
 import io
+from etl_alerts import guard
 
 # Add LlamaParse import
 try:
@@ -1098,6 +1099,9 @@ class AWSMoreRetailAutomation:
 
 def main():
     """Main function to run the scheduler"""
+    # Shared disk guard: refuse to write if this pipeline is over its budget
+    # or the volume is full. Emails on warn/stop. Fails open. See etl_alerts.py.
+    guard("grn")
     print("=" * 80)
     print("AWS MORE RETAIL GRN SCHEDULER")
     print("Runs every 3 hours: Mail to Drive → Drive to Sheet")
